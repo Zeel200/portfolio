@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            /*background-color: white;*/
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(18, 18, 62);
+        }
+
+        nav ul {
+            display: flex;
+            justify-self: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(126, 126, 240);
+        }
+
+        .logo img {
+            width: 60%;
+        }
+
+        .img1 img {
+            height: 460px;
+            width: 760px;
+            margin-top: 5%;
+            border-radius: 6%;
+            margin-left: 23%;
+        }
+
+        .img2 img {
+            height: 460px;
+            width: 760px;
+            margin-top: 2%;
+            border-radius: 6%;
+            margin-left: 23%;
+        }
+
+        .content {
+            text-align: center;
+            color: white;
+            margin-bottom: 3%;
+        }
+
+        #btn1 {
+            text-decoration: underline;
+            padding: 2px;
+            color: red;
+            border-radius: 6px;
+            font-size: 18px;
+            cursor: pointer;
+        }
+
+        #btn2 {
+            text-decoration: underline;
+            padding: 2px;
+            color: red;
+            border-radius: 6px;
+            font-size: 18px;
+            cursor: pointer;
+        }
+
+        #btn1:hover,
+        #btn2:hover {
+            color: white;
+        }
+
+        .rights {
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+            color: gray;
+            background-color: rgb(23, 21, 40);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+            </div>
+            <!--<div class="left">Zeel's Portfolio</div>-->
+            <div class="right">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="education.html">Education</a></li>
+                    <li><a href="experience.html">Experience</a></li>
+                    <li><a href="contact-form.html">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="main">
+        <div class="img1">
+            <img src="images/netflix_proj1.png">
+            <div class="content">
+                <p>Developed Netflix.com clone using HTML and CSS.</p>
+                <a id="btn1" href="https://github.com/Zeel200/netflix" target="_blank">Learn More</a>
+            </div>
+        </div>
+        <div class="img2">
+            <img src="images/calculator_proj2.png">
+            <div class="content">
+                <p>Developed Mathematical Calculator using HTML, CSS and JavaScript.</p>
+                <a id="btn2" href="https://github.com/Zeel200/Calculator" target="_blank">Learn More</a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="rights">
+            Copyright &#169; Zeel's Portfolio | All Rights Reserved
+        </div>
+    </footer>
+    
+</body>
+
+</html>

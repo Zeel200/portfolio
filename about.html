@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'Roboto';
+        }
+
+        .logo img {
+            width: 60%;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(18, 18, 62);
+        }
+
+        nav ul {
+            display: flex;
+            justify-self: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(126, 126, 240);
+        }
+
+        main hr {
+            border: 0;
+            background: #9c97f1;
+            height: 1.2px;
+            margin: 40px 84px;
+        }
+
+        p {
+            text-shadow: 0 0 7px rgba(255, 255, 255, .3), 0 0 3px rgba(255, 255, 255, .3);
+        }
+
+        .container {
+            color: #e5e5e5;
+            font-size: 2.26rem;
+            text-transform: uppercase;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 70px;
+        }
+
+        .animation {
+            height: 50px;
+            overflow: hidden;
+            margin-left: 1rem;
+        }
+
+        .animation>div>div {
+            padding: 0.25rem 0.75rem;
+            height: 2.81rem;
+            margin-bottom: 2.81rem;
+            display: inline-block;
+        }
+
+        .animation div:first-child {
+            animation: text-animation 8s infinite;
+        }
+
+        .first div {
+            background-color: #20a7d8;
+        }
+
+        .second div {
+            background-color: #CD921E;
+        }
+
+        .third div {
+            background-color: #c10528;
+        }
+
+        @keyframes text-animation {
+            0% {
+                margin-top: 0;
+            }
+
+            10% {
+                margin-top: 0;
+            }
+
+            20% {
+                margin-top: -5.62rem;
+            }
+
+            30% {
+                margin-top: -5.62rem;
+            }
+
+            40% {
+                margin-top: -11.24rem;
+            }
+
+            60% {
+                margin-top: -11.24rem;
+            }
+
+            70% {
+                margin-top: -5.62rem;
+            }
+
+            80% {
+                margin-top: -5.62rem;
+            }
+
+            90% {
+                margin-top: 0;
+            }
+
+            100% {
+                margin-top: 0;
+            }
+        }
+
+        .right {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .main-p {
+            max-width: 100%;
+            margin: auto;
+            text-align: center;
+            margin-top: 100px;
+        }
+
+        .typed-out {
+            overflow: hidden;
+            white-space: nowrap;
+            animation: typing 3s forwards;
+            font-size: 1.5rem;
+            /* Remove fixed margin-left */
+        }
+
+
+        @keyframes typing {
+            from {
+                width: 0
+            }
+
+            to {
+                width: 100%
+            }
+        }
+        
+        .rights {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+            color: gray;
+            background-color: rgb(23, 21, 40);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="education.html">Education</a></li>
+                    <li><a href="experience.html">Experience</a></li>
+                    <li><a href="contact-form.html">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="container">
+        <p>Hello 👋 I'm</p>
+        <section class="animation">
+            <div class="first">
+                <div>Zeel Patel</div>
+            </div>
+            <div class="second">
+                <div>Web Developer</div>
+            </div>
+            <div class="third">
+                <div>Front-end developer</div>
+            </div>
+        </section>
+    </main>
+    <div class="main-p">
+        <div class="typed-out">
+            <p>
+                I am a dedicated computer science student currently pursuing my Bachelor of Science degree at
+                Rutgers University <br> in New Jersey, with an anticipated graduation in Winter 2024/25. Alongside my
+                academic achievements, I
+                hold an Associate <br> in Science in Computer Science from Middlesex County College, further enriching
+                my foundation in the field.
+                Looking ahead,<br> my aspirations extend beyond the undergraduate level, as I plan to pursue a Master
+                of Business
+                Administration with a focus on <br> Information Technology or Project Management after completing my
+                studies at Rutgers. My professional
+                goals include securing <br> a full-time position in the tech industry, where I hope to contribute as a
+                Software Engineer, Front-End
+                Developer, or Web Developer, <br> leveraging my education and practical skills to make meaningful
+                contributions to the field.
+            </p>
+        </div>
+    </div>
+    <footer>
+        <div class="rights">
+            Copyright &#169; Zeel's Portfolio | All Rights Reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['CS Student', 'Frontend Developer', 'Web Developer'],
+            typeSpeed: 50,
+        });
+    </script>
+
+</body>
+
+</html>
