@@ -50,3 +50,13 @@ Here are some of the projects featured on my portfolio:
 
 1. Netflix Frontend Clone: A replica of Netflix's user interface.
 2. Mathematical Calculator: A web-based calculator for performing mathematical operations.
+
+# 📬 Contact
+
+Got questions or feedback? Reach out to me at [email](mailto:zeelp2026@gmail.com).
+
+---
+
+*Created by [Zeel Patel](https://github.com/Zeel200)*
+
+Connect with me on [LinkedIn](https://www.linkedin.com/in/zeelpatel03/)
