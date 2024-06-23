@@ -8,11 +8,9 @@ Welcome to my personal portfolio website! This project showcases my skills and p
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Live Demo](#live-demo)
-- [Installation](#installation)
 - [Usage](#usage)
 - [Project Showcase](#project-showcase)
 - [Contact](#contact)
-- [License](#license)
 
 ## Introduction
 
