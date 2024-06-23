@@ -26,8 +26,8 @@ This portfolio website is a reflection of my journey and skills as a developer. 
 
 ## Technologies Used
 
-- **HTML5**: For structuring the content.
-- **CSS3**: For styling and layout.
+- **HTML**: For structuring the content.
+- **CSS**: For styling and layout.
 - **JavaScript**: For interactive elements and dynamic content.
 
 ## Live Demo
