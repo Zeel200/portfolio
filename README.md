@@ -39,9 +39,10 @@ Feel free to explore the different sections of my portfolio:
 
 1. Home: Introduction and welcome message.
 2. About: Information about me and my background.
-3. Skills: A list of my technical skills.
-4. Projects: Showcase of my projects with links and descriptions.
-5. Contact: Form to get in touch with me.
+3. Projects: Showcase of my projects with links and descriptions.
+4. Education: Details about my education and qualifications.
+5. Experience: Details about my work experience.
+6. Contact: Form to get in touch with me.
 
 # Project Showcase
 Here are some of the projects featured on my portfolio:
